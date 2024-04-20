@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* Container */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign-up form */
+.sign-form{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+/* Form */
+.swaping{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+#login-swap{
+    position: relative;
+    right: 10px;
+    width: 50%;
+}
+#signup-swap{
+    position: relative;
+    left: 17px;
+    padding-right:30px;
+    /* color: white; */
+}
+
+form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    gap: 10px;
+    width: 80%;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+}
+#submit-btn{
+    color: white;
+    background-color: rgb(38, 103, 174);
+    border: none;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: rgb(58, 144, 237);    
+    
+}
+
+/* User */
+#asking{
+    color: rgba(13, 13, 203, 0.674);
+    cursor: pointer;
+}
+.asking-user{
+    margin-top:20px;
+}
+.swap{
+    cursor: pointer;
+}
